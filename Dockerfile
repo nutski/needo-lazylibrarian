@@ -18,7 +18,7 @@ RUN apt-get update -q
 RUN apt-get install -qy python wget git
 
 # Install lazylibrarian from github
-RUN git clone https://github.com/DobyTang/LazyLibrarian.git /opt/lazylibrarian
+RUN git clone https://github.com/Nutski/LazyLibrarian.git /opt/lazylibrarian
 RUN chown nobody:users /opt/lazylibrarian
 
 EXPOSE 8085
